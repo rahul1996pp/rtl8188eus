@@ -31,7 +31,7 @@ iw dev wlan0 set type monitor
 ```
 # For parrot os
 
-~~~~
+~~~~~~~~~
 rmmod r8188eu.ko
 
 sudo -i
@@ -51,10 +51,11 @@ sudo iw dev wlan0 set type monitor  (see the wifi module name and change wlan0 t
 
 # check for monitor mode
 
+~~~~~~~~~
 iwconfig
 see that wlan0 is auto then type " iw dev wlan0 set type monitor "
 to get monitor mode
-
+~~~~~~~~~~
 
 
 # Credits
